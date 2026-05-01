@@ -14,19 +14,23 @@ export default defineConfig({
         theme_color: '#0e1729',
         background_color: '#09090b',
         display: 'standalone',
-        orientation: 'portrait',
         icons: [
           {
-            src: 'https://i.imgur.com/WHWgnpB.jpeg',   // Your logo
+            src: '/web-app-manifest-192x192.png',
             sizes: '192x192',
-            type: 'image/jpeg',
+            type: 'image/png',
             purpose: 'any maskable'
           },
           {
-            src: 'https://i.imgur.com/WHWgnpB.jpeg',   // Same for larger icon
+            src: '/web-app-manifest-512x512.png',
             sizes: '512x512',
-            type: 'image/jpeg',
+            type: 'image/png',
             purpose: 'any maskable'
+          },
+          {
+            src: '/apple-touch-icon.png',
+            sizes: '180x180',
+            type: 'image/png'
           }
         ],
       },
