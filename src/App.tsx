@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { AlertTriangle, Camera, CloudRain, MapPin, FileText } from 'lucide-react';
+import { Camera, CloudRain, MapPin, FileText } from 'lucide-react';
 
 export default function StormGuard() {
   const [photo, setPhoto] = useState<string | null>(null);
